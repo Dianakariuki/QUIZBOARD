@@ -7,9 +7,14 @@ function check(){
     var q5=document.quiz.question5.value;
     var result=document.getElementById("result");   
     var quiz=document.getElementById("quiz");
-    if (q1== "javascript") {c++}
-    if (q2== "Russia") {c++}
-    if (q3== "Beijing") {c++}
-    if (q4== "Coronavirus") {c++}
-    if (q5== "4") {c++}
+    if (q1== "HyperTextMarkUpLanguage") {c++}
+    if (q2== "DOCTYPE HTML") {c++}
+    if (q3== "2 em") {c++}
+    if (q4== "6") {c++}
+    if (q5== "2") {c++}
+    quiz.style.display="none"
+
+}
+if (c<=3){
+    result.textContent=`your result is ${c}.It is not so good`
 }
