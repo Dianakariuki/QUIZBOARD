@@ -5,4 +5,6 @@ function check(){
     var q3=document.quiz.question3.value;
     var q4=document.quiz.question4.value;
     var q5=document.quiz.question5.value;
+    var result=document.getElementById("result");   
+    
 }
