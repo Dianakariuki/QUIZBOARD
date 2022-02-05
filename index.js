@@ -14,7 +14,11 @@ function check(){
     if (q5== "2") {c++}
     quiz.style.display="none"
 
-}
+
 if (c<=3){
     result.textContent=`your result is ${c}.It is not so good`
+}
+else{
+    result.textContent=`your result is ${c}.excellent`
+}
 }
