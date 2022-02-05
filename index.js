@@ -7,4 +7,9 @@ function check(){
     var q5=document.quiz.question5.value;
     var result=document.getElementById("result");   
     var quiz=document.getElementById("quiz");
+    if (q1== "javascript") {c++}
+    if (q2== "Russia") {c++}
+    if (q3== "Beijing") {c++}
+    if (q4== "Coronavirus") {c++}
+    if (q5== "4") {c++}
 }
