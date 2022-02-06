@@ -16,9 +16,10 @@ function check(){
 
 
 if (c<=3){
-    result.textContent=`your result is ${c}.It is not so good`
+    result.textContent=`YOUR SCORE IS ${c}.POORLY SCORED ,YOU NEED TO RETAKE THE TEST`
 }
 else{
-    result.textContent=`your result is ${c}.excellent`
+    result.textContent=`YOUR SCORE IS ${c}.EXCELLENT`
+
 }
 }
